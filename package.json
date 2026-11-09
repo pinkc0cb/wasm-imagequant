@@ -1,5 +1,5 @@
 {
-  "name": "@youngboys/wasm-imagequant"
+  "name": "@youngboys/wasm-imagequant",
   "version": "0.1.4",
   "description": "High-performance perceptual color quantization and PNG compressor in WebAssembly (Rust)",
   "type": "module",
