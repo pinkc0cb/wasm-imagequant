@@ -46,7 +46,8 @@ jobs:
         run: cargo install wasm-pack --version 0.13.1 --locked
 
       - name: Build WebAssembly (Release)
-        run: wasm-pack build --target web --release
+        #run: wasm-pack build --target web --release
+        run: wasm-pack build --scope youngboys --target web --release
 
       - name: Verify WASM binary size
         run: |
